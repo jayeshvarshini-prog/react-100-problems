@@ -1,0 +1,17 @@
+export const WEATHER_API = [
+  { city: 'London', temp: 15 },
+  { city: 'Paris', temp: 18 },
+  { city: 'Berlin', temp: 12 },
+  { city: 'Madrid', temp: 24 },
+  { city: 'Rome', temp: 21 },
+  { city: 'Amsterdam', temp: 13 },
+  { city: 'Vienna', temp: 14 },
+  { city: 'Prague', temp: 11 },
+  { city: 'Warsaw', temp: 10 },
+  { city: 'Budapest', temp: 16 },
+  { city: 'Lisbon', temp: 22 },
+  { city: 'Athens', temp: 27 },
+  { city: 'Stockholm', temp: 8 },
+  { city: 'Oslo', temp: 6 },
+  { city: 'Helsinki', temp: 5 },
+];
