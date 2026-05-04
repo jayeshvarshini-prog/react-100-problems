@@ -2,7 +2,9 @@
 
 ## Problem Statement
 
-You are building the product listing page for an e-commerce platform. Products are loaded in pages of 20 from a paginated API. As the user scrolls to the bottom of the list, the next page of products is automatically fetched and appended. A loading skeleton must appear at the bottom while the next page loads. Once all products have been fetched, a "You've reached the end" message replaces the loader. Users can also apply a category filter from a sidebar; changing the filter resets the list back to page 1.
+You are building the product listing page for an e-commerce platform. Products are loaded in pages of 20 from a paginated API. As the user scrolls to the bottom of the list, the next page of products is automatically fetched and appended. A loading skeleton must appear at the bottom while the next page loads. 
+
+Once all products have been fetched, a "You've reached the end" message replaces the loader. Users can also apply a category filter from a sidebar; changing the filter resets the list back to page 1.
 
 ---
 

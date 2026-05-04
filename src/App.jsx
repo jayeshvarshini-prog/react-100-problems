@@ -113,6 +113,29 @@ const PROBLEMS = [
   { id: 98,  label: '98 — Push Notification',           file: 'push_notification.jsx' },
   { id: 99,  label: '99 — PWA Install Prompt',          file: 'pwa_install_prompt.jsx' },
   { id: 100, label: '100 — Performance Profiler',       file: 'performance_profiler.jsx' },
+
+  // ── Date & Time ───────────────────────────────────────────────────────────
+  { id: 101, label: '101 — Date Formatter Playground',  file: 'date_formatter.jsx' },
+  { id: 102, label: '102 — Relative Time Display',      file: 'relative_time.jsx' },
+  { id: 103, label: '103 — Date Range Selector',        file: 'date_range_selector.jsx' },
+  { id: 104, label: '104 — Age Calculator',             file: 'age_calculator.jsx' },
+  { id: 105, label: '105 — Working Days Counter',       file: 'working_days_counter.jsx' },
+  { id: 106, label: '106 — Countdown to Date',          file: 'countdown_to_date.jsx' },
+
+  // ── TanStack Query ────────────────────────────────────────────────────────
+  { id: 107, label: '107 — TanStack Query — useQuery',         file: 'tanstack_query_basic.jsx' },
+  { id: 108, label: '108 — TanStack Query — useMutation',      file: 'tanstack_query_mutation.jsx' },
+  { id: 109, label: '109 — TanStack Query — Paginated',        file: 'tanstack_query_paginated.jsx' },
+  { id: 110, label: '110 — TanStack Query — useInfiniteQuery', file: 'tanstack_query_infinite.jsx' },
+
+  // ── Redux Toolkit ─────────────────────────────────────────────────────────
+  { id: 111, label: '111 — Redux Toolkit — Counter Slice',  file: 'redux_toolkit_counter.jsx' },
+  { id: 112, label: '112 — Redux Toolkit — Shopping Cart',  file: 'redux_toolkit_cart.jsx' },
+  { id: 113, label: '113 — Redux Toolkit — Async Thunk',    file: 'redux_toolkit_async_thunk.jsx' },
+  { id: 114, label: '114 — RTK Query — createApi',          file: 'rtk_query_fetch.jsx' },
+
+  // ── Common interview problems ─────────────────────────────────────────────
+  { id: 115, label: '115 — Infinite Scroll Feed',        file: 'infinite_scroll_feed.jsx' },
 ].map((p) => ({ ...p, Component: lazyLoad(p.file) }));
 
 export default function App() {
